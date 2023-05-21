@@ -1,0 +1,46 @@
+.chat{
+    height: calc(100vh - 2rem);
+    overflow-y: scroll;
+}
+
+.chat::-webkit-scrollbar{
+    background: none;
+    width: 3px;
+}
+
+.chat::-webkit-scrollbar-thumb{
+    background-color: var(--grey);
+}
+
+
+
+.input{
+    height: 10%;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: linear-gradient(transparent, var(--dark));
+}
+
+input{
+    outline: none;
+    border: none;
+    width: 90%;
+    height: 90%;
+    border-radius: 10px;
+    padding: 10px;
+    background: var(--white);
+}
+
+.icon{
+    height: 100%;
+    width: 50px;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+    margin: 5px;
+}

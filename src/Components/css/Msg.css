@@ -1,0 +1,29 @@
+.container{
+    padding: 10px;
+    display: flex;
+}
+
+.container:has(div.me){
+    justify-content: right;
+}
+
+.container:has(div.another){
+    justify-content: left;
+}
+
+
+.me{
+    background: var(--mid-dark);
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px 20px 0px 20px;
+}
+
+.another{
+    background: var(--mid-dark);
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 0px 20px 20px 20px;
+}

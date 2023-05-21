@@ -1,0 +1,24 @@
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+a{
+    text-decoration: none;
+    padding: 5px;
+    color: var(--white);
+    font-weight: bold;
+}
+
+a.active {
+    text-decoration: underline 2.5px var(--grey);
+}
+
+nav{
+    height: 2rem;
+    display: grid;
+    align-items: center;
+    filter: drop-shadow(0px 0px 2px black);
+    background: var(--mid-dark);
+}
